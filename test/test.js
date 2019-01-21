@@ -8,7 +8,8 @@ var arr = [
     { id: 7, name: 'srtdd' }
 ];
 var JsonArray = new JA(arr);
-var t = JsonArray.group('name');
+var t = JsonArray.group('name'); //分组
 console.log(arr);
-console.log(JsonArray.srcArr);
 console.log(t);
+JsonArray.sort('id', true);
+console.log(JsonArray.srcArr);
