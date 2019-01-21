@@ -1,3 +1,6 @@
+/**
+ * 适用于Web前端，直接引用
+ */
 var JAS, //静态全局变量
     JsonArray; //JsonArray类，使用的时候需通过new实例化
 (function() {
