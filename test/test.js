@@ -7,7 +7,7 @@ var arr = [
     { id: 6, name: 'sdd' },
     { id: 7, name: 'srtdd' }
 ];
-var JsonArray = JA(arr);
+var JsonArray = new JA(arr);
 var t = JsonArray.group('name');
 console.log(arr);
 console.log(JsonArray.srcArr);

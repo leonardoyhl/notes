@@ -54,7 +54,15 @@ JsonArray.prototype.group = JsonArray.prototype.group ||
         return result;
     }
 
+JsonArray.fn = JsonArray.fn ||
+    /**
+     * 静态函数
+     */
+    function() {
+
+    }
 var JA = function(arr) {
     return new JsonArray(arr);
 }
-exports = module.exports = JA;
+
+exports = module.exports = JsonArray;
