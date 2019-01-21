@@ -1,16 +1,15 @@
 var JA, JsonArray;
 (function() {
     /**
-     * 传入Json数组，构建JsonArray类对象
+     * 传入Json数组，构建 JsonArrayObject 类对象
      * @param {Array} a 
      */
-    JsonArray = function(a) {
+    var JsonArrayObject = function(a) {
         this.srcArr = a;
         this.arr = a;
-        return this;
     }
 
-    JsonArray.prototype.sort = JsonArray.prototype.sort ||
+    JsonArrayObject.prototype.sort = JsonArrayObject.prototype.sort ||
         /**
          * 对JSON数组按指定键的值进行排序
          * @param {string} keyName 
@@ -30,7 +29,7 @@ var JA, JsonArray;
             return this.arr.sort(_sort);
         }
 
-    JsonArray.prototype.group = JsonArray.prototype.group ||
+    JsonArrayObject.prototype.group = JsonArrayObject.prototype.group ||
         /**
          * 以键名【keyName】字段对JSON数组进行分组（&排序）
          * @param {string} keyName 
@@ -57,17 +56,20 @@ var JA, JsonArray;
             return result;
         }
 
-    JsonArray.fn = JsonArray.fn ||
+    JsonArrayObject.fn = JsonArrayObject.fn ||
         /**
          * 静态函数
          */
         function() {
 
         }
-
-    var tmp = function(arr) {
-        return new JsonArray(arr);
+    var JsonArrayStatic = function(arr) {
+        return new JsonArrayObject(arr);
     }
-    JsonArray = JA = tmp;
+    var tmp = function(arr) {
+        return new JsonArrayObject(arr);
+    }
+    JA = JsonArray = tmp;
+    JA.fn = JsonArray.fn = JsonArrayObject.fn;
     //JA = JsonArray;
 })();
