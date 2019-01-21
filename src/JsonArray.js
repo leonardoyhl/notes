@@ -1,4 +1,8 @@
 /**
+ * 适用于NodeJS环境
+ */
+
+/**
  * 传入Json数组，构建JsonArray对象
  * @param {Array} a 
  */
