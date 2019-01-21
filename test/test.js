@@ -1,5 +1,13 @@
 var JA = require('../src/JsonArray');
 
-var arr = [15, 4, 6, 7];
+var arr = [
+    { id: 15 },
+    { id: 4 },
+    { id: 6 },
+    { id: 7 }
+];
 var JsonArray = JA(arr);
-console.log(JsonArray.arr);
+var t = JsonArray.sort('id');
+console.log(arr);
+console.log(JsonArray.srcArr);
+console.log(t);
