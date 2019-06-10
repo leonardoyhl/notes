@@ -7,3 +7,6 @@
     * https://blog.csdn.net/shunfa888/article/details/79606277
 * #### vs code 添加jquery的智能提示教程：
     * https://www.cnblogs.com/wxb8/p/5763330.html
+
+## 前端开发
+* 鼠标悬停预加载：instantclick.js
