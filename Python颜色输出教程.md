@@ -7,3 +7,6 @@
 * 多方案彩色输出：https://stackoverflow.com/questions/384076/how-can-i-color-python-logging-output
 
 * Python3改变cmd（命令行）输出颜色：https://blog.csdn.net/wy_97/article/details/79663014
+
+
+* python学习笔记（五）---sublime text 多行代码注释快捷键：https://www.cnblogs.com/MaxElephant/p/9759110.html
