@@ -8,5 +8,6 @@
 
 * Python3改变cmd（命令行）输出颜色：https://blog.csdn.net/wy_97/article/details/79663014
 
+* python文件和工程生成.exe可执行文件：https://www.e-learn.cn/content/python/1404384
 
 * python学习笔记（五）---sublime text 多行代码注释快捷键：https://www.cnblogs.com/MaxElephant/p/9759110.html
