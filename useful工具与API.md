@@ -1,3 +1,8 @@
+### JQuery-CDN库地址：
+```
+http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
+```
+
 ## Google翻译API：
 * https://translate.googleapis.com/element/TE_20181015_01/e/js/element/element_main.js
 * https://translate.googleapis.com/translate_static/js/element/main_zh-CN.js
@@ -10,3 +15,9 @@
 
 ## 前端开发
 * 鼠标悬停预加载：instantclick.js
+* WebGL 3D实现：Three.js
+* 全屏幻灯片：fullPage.js
+* Tocify自动生成文档目录：https://github.com/gfranko/jquery.tocify.js
+* jQuery全屏滚动插件：fullPage.js   Demo演示：http://www.dowebok.com/demo/2014/77/
+* 让页面滚动更有趣：WOW.js  Demo演示：http://www.dowebok.com/131.html
+* CSS特效：Animate.css
