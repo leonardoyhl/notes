@@ -1,4 +1,4 @@
-### 资源修改
+### 程序资源修改
 * Restorator
 * Resource Hacker
 * ResScope
