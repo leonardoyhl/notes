@@ -23,3 +23,12 @@ http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
 * 让页面滚动更有趣：WOW.js  Demo演示：http://www.dowebok.com/131.html
 * CSS特效：Animate.css
 * HTML代码高亮：prettify.js
+
+### API测试
+* Postman
+* Runscope
+
+### 数据Mock
+* Mock.js：http://mockjs.com/
+* UmiJS：https://umijs.org
+* Easy Mock：https://easy-mock.com  （线上）
