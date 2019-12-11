@@ -32,3 +32,9 @@ http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
 * Mock.js：http://mockjs.com/
 * UmiJS：https://umijs.org
 * Easy Mock：https://easy-mock.com  （线上）
+
+### 文本编辑库
+* Knockout.js：富文本编辑库，底层数据模型，具有良好的显示和编辑功能的用户界面
+
+### 框架
+* pym.js：让iframe自适应父框架的组件
