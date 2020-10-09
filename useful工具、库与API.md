@@ -1,3 +1,6 @@
+### JS文件中JQuery智能提示引入库：
+`/// <reference path="F:\vs_workspace\lib\ts\jquery\jquery.d.ts" />`
+
 ### JQuery-CDN库地址：
 ```
 http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
@@ -12,7 +15,6 @@ http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
     * https://blog.csdn.net/shunfa888/article/details/79606277
 * #### vs code 添加jquery的智能提示教程：
     * https://www.cnblogs.com/wxb8/p/5763330.html
-    * JS文件中JQuery智能引入提示库：`/// <reference path="{PATH}\jquery.d.ts" />`
 
 ## 前端开发
 * 鼠标悬停预加载：instantclick.js
@@ -26,10 +28,11 @@ http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
 
 ### API测试
 * Postman
+* PostWoman
 * Runscope
 
 ### 数据Mock
-* Mock.js：http://mockjs.com/
+* Mock.js：http://mockjs.com
 * UmiJS：https://umijs.org
 * Easy Mock：https://easy-mock.com  （线上）
 
@@ -38,3 +41,19 @@ http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js
 
 ### 框架
 * pym.js：让iframe自适应父框架的组件
+
+## 表格
+#### 在线表格
+* SpreadJS：
+
+### 数据操作
+* Lodash.js
+    简介：内部封装了诸多对字符串、数组、对象等常见数据类型的处理函数
+    官方文档：https://www.lodashjs.com/docs/latest
+    他山之石：https://www.cnblogs.com/webbest/p/8268115.html
+
+### CI
+* 免费在线Travis CI：https://travis-ci.org/
+
+### 在线工具（加解密转换）
+* https://www.keylala.cn/
