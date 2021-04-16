@@ -98,6 +98,13 @@ Stash
 > git checkout -- `<file>`     拉取暂存区文件 并将其替换成工作区文件
 > git reset HEAD  -- `<file>`  拉取最近一次提交到版本库的文件到暂存区  该操作不影响工作区
 
+Cherry-pick:
+* `git cherry-pick A..B`   从A到B，不含A
+* `git cherry-pick A^..B`  从A到B，含A
+* `git cherry-pick -m 1 <mergeCommitHash>`  cherry-pick merge commit，参数`parent-number`是一个从1开始的整数，代表原始提交的父分支编号
+    * `1` - 1号父分支是接受变动的分支（the branch being merged into）
+    * `2` - 2号父分支是作为变动来源的分支（the branch being merged from）
+
 设置钩子Hook：
 `gitdir=$(git rev-parse --git-dir); scp -p -P 29418 10251417@gerrit.zte.com.cn:hooks/commit-msg ${gitdir}/hooks/`
 
