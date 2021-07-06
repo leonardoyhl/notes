@@ -154,3 +154,7 @@ su - root -l -s /bin/bash -c "nohup /usr/local/bin/ttyd login >> /var/log/ttyd/$
 ### 查看占用内存
 * `ps -aux / -ef`
 * `top`
+
+### 超出最大可监听文件数
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
