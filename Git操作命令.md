@@ -110,3 +110,10 @@ Cherry-pick:
 
 误删：
 * git fsck
+
+跨仓库
+* 添加仓库关联：`git remote add <name> <url>/<branch-name>`
+* 设置仓库URL：`git remote set-url <name> <url>`
+* 列出指定仓库分支：`git remote show <name>`
+* 创建新仓库没有的分支：`git checkout -b branch-name`
+* 推到新仓库：`git push origin-name branch-name`
